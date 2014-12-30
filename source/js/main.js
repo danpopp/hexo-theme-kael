@@ -49,7 +49,7 @@ var kaelEggCombo = kaelEgg.sequence_combo("q w e r", function() {
     lives = 0.8;
     $('.block').show();
     $('.egg').addClass('bounceIn').removeClass('bounceOut');
-    $('.egg').append('<iframe id="egg-frame" style="display: none;margin-top:0;" src="http://hanson.in" frameborder="0" width="100%" height="700px" scrolling="no">');
+    $('.egg').append('<iframe id="egg-frame" style="display: none;margin-top:0;" src="//www.youtube.com/embed/NHozn0YXAeE?autoplay=1" frameborder="0" width="100%" height="700px" scrolling="no">');
 //    iframe onload taken from http://www.nczonline.net/blog/2009/09/15/iframes-onload-and-documentdomain/
     var iframe = document.getElementById('egg-frame');
     if (iframe.attachEvent){

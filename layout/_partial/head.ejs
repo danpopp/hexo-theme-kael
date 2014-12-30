@@ -42,7 +42,6 @@
   </script>
   <% } %>
 
-<%- partial('math-jax')%>
 </head>
 <body>
 <div class="container">
@@ -134,10 +133,24 @@
                         </div>
                     </li>
                     <% } %>
-                    <li class="mp-pjax"><a class="fa fa-user" href="<%= config.root %>about">&nbsp;&nbsp;&nbsp;About Me</a></li>
-		    <li><a class="fa fa-book" href="https://www.danpopp.net/cv/" target="_new">&nbsp;&nbsp;&nbsp;Resum&eacute;</a></li>
-                    <li><a class="fa fa-github" href='<%- theme.github %>'>&nbsp;&nbsp;&nbsp;Github</a></li>
-
+                    <li>
+                        <a class="fa fa-flask" href="#"><i class="fa fa-angle-left">
+                            </i>&nbsp;&nbsp;Misc</a>
+                        <div class="mp-level page-list">
+                            <h2 ><i class="fa fa-flask"></i>
+                                Misc</h2>
+                            <a class="mp-back" href="#">back</a>
+                            <ul>
+                                <div class="mp-scroll">
+                                <!--<li class="mp-pjax"><a class="fa fa-user" href="<%= config.root %>about">&nbsp;&nbsp;&nbsp;About Me</a></li>-->
+		                <li><a class="fa fa-apple" href='/apple/' target="_new">&nbsp;&nbsp;&nbsp;Apple</a></li>
+                		<li><a class="fa fa-github" href='<%- theme.github %>' target="_new">&nbsp;&nbsp;&nbsp;Github</a></li>
+                    		<li><a class="fa fa-book" href="/cv/" target="_new">&nbsp;&nbsp;&nbsp;Resum&eacute;</a></li>
+				<li><a class="fa fa-lock" href='/paste/' target="_new">&nbsp;&nbsp;&nbsp;ZeroBin</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
 
             </div>
