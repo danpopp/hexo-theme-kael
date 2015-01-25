@@ -124,7 +124,8 @@ a {
 }
 
 a:hover {
-    color: #57A3E8;
+   /* color: #57A3E8; */
+    color: #0090ff;
 }
 
 h1 a, h2 a, h3 a,
@@ -418,6 +419,7 @@ margin on the iframe, cause it breaks stuff. */
 
 
 .post-title {
+    color: #0090ff;
     margin:0;
 }
 
@@ -447,7 +449,7 @@ margin on the iframe, cause it breaks stuff. */
     display: inline-block;
     margin: 0 0 5px 0;
     font-size: 1.6rem;
-    color: #9EABB3;
+    color: #0090ff;
 }
 .post-meta span{
     margin-left: 10px;
@@ -458,7 +460,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: #0090ff;
     text-decoration: none;
 }
 
